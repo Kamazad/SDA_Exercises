@@ -28,4 +28,13 @@ public class Engine {
     public Double getCapacity() {
         return this.capacity;
     }
+
+    @Override
+    public String toString() {
+        return "Engine{" +
+                "capacity=" + capacity +
+                ", horsePower=" + horsePower +
+                ", fuelConsumption=" + fuelConsumption +
+                '}';
+    }
 }
