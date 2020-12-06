@@ -20,7 +20,7 @@ public class Engine {
         this.fuelConsumption = fuelConsumption;
     }
 
-    //Ex 30
+    //Ex 30 & 31
     public void setCapacity(Double capacity) {
         this.capacity = capacity;
     }
