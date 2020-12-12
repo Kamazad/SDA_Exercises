@@ -9,9 +9,9 @@ public class Main {
         Cat cat2 = new Cat("Jacynty");
         Cat cat3 = new Cat("Ciapaty");
 
-        cat1.makeSound();
-        cat2.makeSound();
-        cat3.makeSound();
+//        cat1.makeSound();
+//        cat2.makeSound();
+//        cat3.makeSound();
 //Lista kotów
         List<Cat> cats = new ArrayList<>();
         cats.add(cat1);
@@ -21,5 +21,9 @@ public class Main {
             cat.makeSound();
         }
 
+        cat1.eatMouse();
+        cat1.eatMouse();
+        cat1.eatMouse();
+        cat1.eatMouse();
     }
 }
